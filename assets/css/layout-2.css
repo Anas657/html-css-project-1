@@ -1,0 +1,95 @@
+body,
+html {
+  background: #ecf1f9;
+  padding: 0;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+
+h2 {
+  color: red;
+}
+
+.button {
+  background: none;
+  font-size: 20px;
+  color: red;
+  padding: 10px 40px 20px 20px;
+  margin: 10px 20px 30px 15px;
+  border-left-color: blue;
+  border-bottom-color: green;
+  border-right-width: 6px;
+}
+
+#main {
+}
+.clear {
+  clear: both;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.flexbox {
+  display: flex;
+}
+.hero-section {
+  margin-top: -100px;
+  padding-top: 60px;
+  background-image: linear-gradient(to left, #c6dfe8, #fad7e8);
+}
+.hero-section h2 {
+  margin: 0;
+  padding: 0;
+}
+.left {
+  width: 50%;
+  float: left;
+  padding: 0 0;
+
+  margin-top: 140px;
+}
+.right {
+  width: 50%;
+  float: right;
+}
+
+/* Header - start */
+#header {
+  height: 100px;
+  border: solid 1px #ddd;
+}
+/* Logo */
+.logo {
+}
+div {
+}
+/* Navigation */
+.navigation {
+  margin-top: 15px;
+
+  text-align: center;
+}
+.navigation a {
+  display: inline-block;
+  padding: 30px;
+}
+/* Social icons */
+.social_icons {
+  text-align: right;
+}
+.social_icons img {
+  height: 35px;
+}
+.section-2 h2 {
+  color: white;
+}
+.section-2.orange-bg {
+  background: orange;
+}
+/* Header - end */
